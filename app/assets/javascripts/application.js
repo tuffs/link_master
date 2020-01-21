@@ -13,4 +13,17 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery3
+//= require popper
+//= require jquery-fileupload/vendor/jquery.ui.widget
+//= require jquery-fileupload/jquery.iframe-transport
+//= require jquery-fileupload/jquery.fileupload
+//= require jquery_ujs
+//= require jquery-ui/widgets/sortable
+//= require rails_sortable
+//= require bootstrap
+//= require lightbox
+//= require velocity
 //= require_tree .
+$(document).on('turbolinks:load', function() {
+});
